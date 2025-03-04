@@ -1,11 +1,13 @@
 {
     "particles": {
-        "number": { "value": 80 },
-        "size": { "value": 3 },
+        "number": { "value": 100 },
         "color": { "value": "#FFD700" },
-        "move": { "speed": 2 }
+        "shape": { "type": "circle" },
+        "size": { "value": 3 }
     },
     "interactivity": {
-        "events": { "onhover": { "enable": true, "mode": "repulse" } }
+        "events": {
+            "onhover": { "enable": true, "mode": "repulse" }
+        }
     }
 }
